@@ -1,9 +1,9 @@
 class Oxen < Formula
   desc "🐂 is a command line tool to version and manage large machine learning datasets"
   homepage "https://www.oxen.ai"
-  url "https://github.com/Oxen-AI/oxen-release/releases/download/v0.4.0/oxen-mac.tar.gz"
-  sha256 "00915cd55aa5382d193532659adf741ea48a3565d3da05546b44f53f757600b1"
-  version "0.4.0"
+  url "https://github.com/Oxen-AI/oxen-release/releases/download/v0.4.1/oxen-mac.tar.gz"
+  sha256 "fecfe3e0d4e73f7666453baec5da2d66e2643ac1c792f982595643a5be357cb6"
+  version "0.4.1"
 
   def install
     bin.install "oxen"
