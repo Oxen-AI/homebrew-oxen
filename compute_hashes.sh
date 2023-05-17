@@ -45,3 +45,5 @@ URL="https://github.com/Oxen-AI/Oxen/releases/download/v$VERSION/oxen-server-mac
 echo "Downloading $URL"
 wget -q $URL
 shasum -a 256 oxen-server-mac-11.0-$VERSION.tar.gz
+
+rm *.tar.gz
