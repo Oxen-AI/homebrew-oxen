@@ -5,14 +5,14 @@ class Oxen < Formula
 
   on_macos do
     if MacOS.version >= :ventura # 13
-      url "https://github.com/Oxen-AI/Oxen/releases/download/v0.6.1%2B1/oxen-mac-13.0-0.6.1+1.tar.gz"
-      sha256 "26edc7b261c3d70c64f4daa9cb23cc34a7833b997faee3b32bbaced3772c2bb5"
+      url "https://github.com/Oxen-AI/Oxen/releases/download/v0.6.5/oxen-mac-13.0-0.6.5.tar.gz"
+      sha256 "61ace81fc0c626866b09a95cd2f7bad8ca806f1ca56547ec3535a15053845899"
     elsif MacOS.version >= :monterey # 12
-      url "https://github.com/Oxen-AI/Oxen/releases/download/v0.6.1%2B1/oxen-mac-12.0-0.6.1+1.tar.gz"
-      sha256 "be64ba836839b8f2d44a5d1225a03c4f8ce3903e987c2f97a9337f2d12ff94c6"
+      url "https://github.com/Oxen-AI/Oxen/releases/download/v0.6.5/oxen-mac-12.0-0.6.5.tar.gz"
+      sha256 "ab0ca93db7a7296db80d5e874fac7187dc660d0e8c0c758195189074f2347b0a"
     elsif MacOS.version >= :big_sur # 11
-      url "https://github.com/Oxen-AI/Oxen/releases/download/v0.6.1%2B1/oxen-mac-11.0-0.6.1+1.tar.gz"
-      sha256 "276a0d7ada5243ea093fefd98392b8890c54492f7261645f55d968d6b4f4162b"
+      url "https://github.com/Oxen-AI/Oxen/releases/download/v0.6.5/oxen-mac-11.0-0.6.5.tar.gz"
+      sha256 "ccf588f887f58fc8e9538bfffb730f85b61c67b6fc41a58722b93b667099d9e6"
     end
   end
 
