@@ -1,18 +1,18 @@
 class Oxen < Formula
   desc "🐂 oxen is a command line tool to version and manage large machine learning datasets"
   homepage "https://www.oxen.ai"
-  version "0.9.14"
+  version "0.9.17"
 
   on_macos do
     if MacOS.version >= :ventura # 13
-      url "https://github.com/Oxen-AI/Oxen/releases/download/v0.9.14/oxen-mac-13.0-0.9.14.tar.gz"
-      sha256 "feaf40e4884c8d42b050d15c2c0b6902abfc313c810cdb8910737c04614615d4"
+      url "https://github.com/Oxen-AI/Oxen/releases/download/v0.9.17/oxen-mac-13.0-0.9.17.tar.gz"
+      sha256 "4717e3d39a593381bac7f2add64f389ff2c018648f90f5a98dfcd084f872d894"
     elsif MacOS.version >= :monterey # 12
-      url "https://github.com/Oxen-AI/Oxen/releases/download/v0.9.14/oxen-mac-12.0-0.9.14.tar.gz"
-      sha256 "b4f3dbd78854bb9b669d0fa6ea8549ed5cf4bdc7397acd8b590ad04264f9ea75"
+      url "https://github.com/Oxen-AI/Oxen/releases/download/v0.9.17/oxen-mac-12.0-0.9.17.tar.gz"
+      sha256 "de214eab47f2a50b91d5ffced887fab94877ea63050ad917cb110571c9932beb"
     elsif MacOS.version >= :big_sur # 11
-      url "https://github.com/Oxen-AI/Oxen/releases/download/v0.9.14/oxen-mac-11.0-0.9.14.tar.gz"
-      sha256 "5102f3bb736367a7f01a841e1f6db683680cd1639315e77546ea2730747e0c10"
+      url "https://github.com/Oxen-AI/Oxen/releases/download/v0.9.17/oxen-mac-11.0-0.9.17.tar.gz"
+      sha256 "17669d42e60fc7c58c5faacd210f616f30df7e11d477d0031b575d851cc56eef"
     end
   end
 
