@@ -11,9 +11,10 @@ on:
       version:
         required: true
         type: string
-    secrets:
-      HOMEBREW_TOKEN:
-        required: true
+
+permissions:
+  contents: write
+  pull-requests: write
 
 jobs:
   update-formula:
@@ -23,7 +24,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: oxen-ai/homebrew-oxen
-          token: ${{ secrets.HOMEBREW_TOKEN }}
 
       - name: Set version
         id: version
@@ -53,5 +53,4 @@ jobs:
             This PR was automatically created by GitHub Actions.
           branch: update-formula-${{ env.VERSION }}
           delete-branch: true
-          base: main
-          token: ${{ secrets.HOMEBREW_TOKEN }} 
+          base: main 
