@@ -26,7 +26,7 @@ jobs:
       - name: Checkout homebrew-oxen repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.HOMEBREW_DEPLOY_PAT }}
+          token: ${{ secrets.token }}
           repository: oxen-ai/homebrew-oxen
 
       - name: Set version
@@ -48,7 +48,7 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
-          token: ${{ secrets.HOMEBREW_DEPLOY_PAT }} 
+          token: ${{ secrets.token }} 
           commit-message: "chore: update formula to version ${{ env.VERSION }}"
           title: "Update formula to version ${{ env.VERSION }}"
           body: |
